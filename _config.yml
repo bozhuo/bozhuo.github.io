@@ -1,0 +1,24 @@
+title: My Hexo Blog
+subtitle: Powered by CMS for Hexo
+description: A Hexo blog managed from a browser admin panel.
+author: bozhuo
+language: zh-CN
+timezone: Asia/Shanghai
+url: https://bozhuo.github.io
+root: /
+permalink: :year/:month/:day/:title/
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+theme: landscape
+theme_config:
+  menu:
+    Home: /
+    About: /about/
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+deploy:
+  type: ''
